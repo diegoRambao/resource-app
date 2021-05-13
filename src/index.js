@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import {App} from './App'
+import { App } from './App'
 import reportWebVitals from './reportWebVitals'
+import { GlobalStyle } from './globalStyle'
 
 ReactDOM.render(
-    <App />,
-  document.getElementById('root')
+   <Fragment>
+      <GlobalStyle />
+      <App />
+   </Fragment>,
+   document.getElementById('root')
 )
 
-reportWebVitals();
+reportWebVitals()

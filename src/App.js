@@ -1,5 +1,6 @@
 import React from 'react'
+import { Navbar } from './components/Navbar'
 
 export function App() {
-  return <h1>Resource-App</h1>
+  return (<Navbar />)
 }
