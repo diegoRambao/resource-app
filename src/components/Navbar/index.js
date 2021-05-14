@@ -1,10 +1,11 @@
-import { Nav, Brand } from './style'
+import { Nav } from './style'
+import { IconText } from '../IconText'
 
 export function Navbar() {
    return (
       <Nav>
          <div className="container">
-            <Brand href="/">RESOURCE APP</Brand>
+            <IconText />
          </div>
       </Nav>
    )
